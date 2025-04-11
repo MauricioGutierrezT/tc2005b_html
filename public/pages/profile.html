@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-
+<script src = "../scripts/perfil.js"></script>
 <html lang="en">
 <head><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet"/><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet"/>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Profile</title>
-<link href="../style.css" rel="stylesheet"/><link href="../style.css" rel="stylesheet"/></head>
+<link href="../styles/style.css" rel="stylesheet"/><link href="../styles/style.css" rel="stylesheet"/></head>
 <body><nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
 <div class="container-fluid">
 <a class="navbar-brand" href="home.html">Mi Sitio</a>
@@ -22,6 +22,7 @@
 <input aria-label="Search" class="form-control me-2" placeholder="Buscar" type="search"/>
 <button class="btn btn-outline-light" type="submit">Buscar</button>
 </form>
+
 </div>
 </div>
 </nav><main>
@@ -30,7 +31,9 @@
 
 <h1>This is the profile!</h1>
 <h2>A00838011</h2>
-        <h3>Mauricio Gutierrez Trevino</h3>
+        <h3 id="name">Name: </h3>
         <img src="../images/pika.png" class="rounded-circle" alt="Pikachu" width="140" height="100">
+        
+        <button id="logout" type = button>Log out</button>
 </main></body>
 </html>
